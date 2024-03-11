@@ -1,0 +1,53 @@
+:root {
+  --main-color: #06c;
+  --accent-color: #006;
+  --max-width: 800px;
+}
+
+.recallBoard {
+  border-radius: 18px;
+  box-shadow: 4px 5px 10px -1px rgba(0, 0, 0, 0.14);
+  background-color: #d0f1ff;
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+  padding: 27px 25px 50px;
+}
+
+.boardTitle {
+  color: #000;
+  font: 400 20px Inter, sans-serif;
+  padding-bottom: 50px;
+}
+
+.recallItemCard {
+  border-radius: 6px;
+  background-color: rgb(64, 70, 73);
+  box-shadow: 3px 1px 7px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 7px 12px 30px 60px;
+}
+
+.detailIcon {
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  width: 23px;
+  height: 23px;
+}
+
+@media (max-width: 800px) {
+    .recallItem {
+      padding: 0 20px;
+    }
+    .boardTitle {
+      max-width: 100%;
+    }
+    .recallItemCard {
+      max-width: 100%;
+      padding-left: 20px;
+      margin-top: 40px;
+    }
+  }
+  
